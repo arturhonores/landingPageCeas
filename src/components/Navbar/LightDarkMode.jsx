@@ -4,9 +4,7 @@ import { themeChange } from 'theme-change'
 const LightDarkMode = () => {
 
     useEffect(() => {
-        console.log('Antes de themeChange');
         themeChange(false);
-        console.log('Después de themeChange');
     }, []);
 
     return (

@@ -1,7 +1,7 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar/Navbar"
 import Home from "./components/Home"
 import About from "./components/About"
-import Course from "./components/Course"
+import Courses from "./components/Courses"
 import Teacher from "./components/Teacher"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Course />
+      <Courses />
       <Teacher />
       <Contact />
       <Footer />

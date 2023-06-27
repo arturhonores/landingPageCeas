@@ -1,6 +1,6 @@
 const Teacher = () => {
     return (
-        <div className="section">Teacher</div>
+        <div className="section" id="teacher">Teacher</div>
     )
 }
 export default Teacher
