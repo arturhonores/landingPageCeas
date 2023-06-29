@@ -3,7 +3,7 @@ import { logos } from "./Data"
 
 const Home = () => {
     return (
-        <div className="container mx-auto pb-24 px-6 min-h-screen" id="home">
+        <div className="container mx-auto pt-6 pb-24 px-6 min-h-screen" id="home">
             <div className="md:flex items-center justify-center">
                 <div>
                     <div className="font-bold text-xs text-Teal mb-4">
@@ -21,7 +21,7 @@ const Home = () => {
                         <button className="btn px-6 py-3 font bold text-sm">Discover</button>
                     </div>
                 </div>
-                <div className="">
+                <div className="md:w-[60%]">
                     <img src={hero} alt="hero" />
                 </div>
             </div>

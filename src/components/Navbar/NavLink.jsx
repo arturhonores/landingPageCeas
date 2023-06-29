@@ -8,12 +8,12 @@ const NavLink = ({ href, link }) => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-50}
+                offset={-62}
                 className="font-bold transition-all duration-300"
             >
                 {link}
             </Link>
-        </li>
+        </li >
     );
 };
 export default NavLink;
