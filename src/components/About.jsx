@@ -1,4 +1,4 @@
-import about from "../assets/About.jpg"
+import about from "../assets/About.webp"
 const About = () => {
     return (
         <div className="section" id="about">
