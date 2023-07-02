@@ -13,9 +13,9 @@ const Footer = () => {
             initial={{ height: 0 }}
             whileInView={{ height: "auto" }}
             transition={{ duration: 1 }}
-            className="bg-Teal p-10"
+            className="bg-primary p-10"
         >
-            <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 place-items-start gap-8">
+            <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 place-items-start gap-8 text-blanco">
                 <div>
                     <h5 className="font-bold mb-6">Get Started</h5>
                     <p className="text-sm leading-7">
@@ -54,36 +54,36 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h5 className="font-bold mb-6">Company</h5>
+                    <h5 className="font-bold mb-6">Legal</h5>
                     <div className="flex flex-col gap-4">
                         <a
                             href="#"
                             className="text-sm hover:underline hover:underline-offset-2"
                         >
-                            Privacy Policy
+                            Política de Cookies
                         </a>
                         <a
                             href="#"
                             className="text-sm hover:underline hover:underline-offset-2"
                         >
-                            Sitemap
+                            Política de Privacidad
                         </a>
                         <a
                             href="#"
                             className="text-sm hover:underline hover:underline-offset-2"
                         >
-                            Careers
+                            Términos y Condiciones
                         </a>
-                        <a
+                        {/* <a
                             href="#"
                             className="text-sm hover:underline hover:underline-offset-2"
                         >
                             Terms & Conditions
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 <div>
-                    <h5 className="font-bold mb-6">Follow us</h5>
+                    <h5 className="font-bold mb-6">Síguenos</h5>
                     <p className="text-sm mb-4">ceas@gmail.com</p>
                     <p className="text-sm">+51 123456789</p>
                     <div className="flex gap-4 mt-4">

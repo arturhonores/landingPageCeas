@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className={`${isScrolled ? "py-2 transition-all duration-300" : "py-4"} container mx-auto flex items-center justify-between px-2`} >
                 <div className="flex items-center gap-4">
                     <HiMenuAlt1 onClick={() => setToggle(true)} className="text-3xl sm:hidden cursor-pointer" />
-                    <div className="text-xl text-Teal uppercase tracking-wide font-bold">CEAS PERÚ</div>
+                    <div className="text-xl text-primary uppercase tracking-wide font-bold">sigma</div>
                     {
                         toggle
                         &&
@@ -37,12 +37,12 @@ const Navbar = () => {
                             initial={{ x: -500, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.3 }}
-                            className="fixed h-full w-96 top-0 left-0 z-20 bg-Teal flex flex-col justify-center items-center shadow-lg gap-y-7">
+                            className="fixed h-full w-96 top-0 left-0 z-20 bg-primary flex flex-col justify-center items-center shadow-lg gap-y-7">
                             {navLinks.map(navLink => (
                                 <MobileNavLink key={navLink.id} {...navLink} setToggle={setToggle} />
                             ))
                             }
-                            <HiX onClick={() => setToggle(prev => !prev)} className="absolute top-12 right-12 text-3xl cursor-pointer" />
+                            <HiX onClick={() => setToggle(prev => !prev)} className="absolute top-12 right-12 text-3xl cursor-pointer text-blanco" />
                         </motion.div>
                     }
                 </div>

@@ -1,4 +1,4 @@
-import hero from "../assets/hero.png"
+import hero from "../assets/imagen-hero.svg"
 import { logos } from "./Data"
 import { motion } from "framer-motion"
 
@@ -25,21 +25,20 @@ const Home = () => {
 
     return (
         <div className="container pt-24 mx-auto pb-24 px-6 min-h-screen" id="home">
-            <div className="md:flex items-center justify-center">
+            <div className="md:flex items-center justify-between">
                 <div>
-                    <div className="font-bold text-xs text-Teal mb-4">
-                        {/* {" "} */}
-                        your e-learning partner
+                    <div className="font-bold text-xs text-secondary mb-4">
+                        Simplifica tu trabajo, mejora tus resultados
                     </div>
-                    <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
-                        This is <br />the new way<br /> to learn online
+                    <div className="sm:text-[2.5rem] text-[1.825rem] font-bold mb-4">
+                        SIGMA<br />Software de gestión<br />para psicólogos
                     </div>
-                    <p className="text-sm leading-7 text-gray max-w-sm">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam explicabo eveniet similique illo blanditiis eum.
+                    <p className="text-sm leading-5 text-gray max-w-sm font-bold">
+                        Un proyecto de CEAS Perú
                     </p>
                     <div className="mt-6">
-                        <button className="btn px-6 py-3 font-bold mr-4 text-sm bg-Teal text-white">Get Started</button>
-                        <button className="btn px-6 py-3 font bold text-sm">Discover</button>
+                        <button className="btn px-6 py-3 font-bold mr-4 text-sm bg-primary text-white hover:bg-blue-950">¡Me apunto!</button>
+                        {/* <button className="btn px-6 py-3 font bold text-sm">Discover</button> */}
                     </div>
                 </div>
                 <div className="md:w-[60%]">
@@ -47,12 +46,11 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <p className="text-center text-xl">
-                    {/* We collaborate with {" "} */}
-                    We collaborate with
-                    <span className="text-Teal">
+                <p className="text-center text-xl font-medium">
+                    Estas organizaciones ya confían en SIGMA
+                    {/* <span className="text-Teal">
                         +100 leading universities and companies
-                    </span>
+                    </span> */}
                 </p>
                 <motion.div variants={container} initial="hidden" whileInView="visible" className="flex items-center justify-center flex-wrap gap-8 p-2">
                     {

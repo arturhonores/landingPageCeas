@@ -23,7 +23,7 @@ export const navLinks = [
     {
         id: 1,
         href: "home",
-        link: "Home",
+        link: "Inicio",
     },
     {
         id: 2,
@@ -150,18 +150,18 @@ export const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
 export const accordions = [
     {
         id: 1,
-        title: "What is Skillex?",
+        title: "¿Qué es SIGMA?",
     },
     {
         id: 2,
-        title: "What can I learn from Skillex?",
+        title: "¿Qué beneficios me ofrece SIGMA?",
     },
     {
         id: 3,
-        title: "Can I teach on Skillex?",
+        title: "¿Cuánto costará?",
     },
     {
         id: 4,
-        title: "What is included in my Skillex membership?",
+        title: "¿Poseen experiencia en el sector?",
     },
 ];

@@ -32,7 +32,23 @@ export default {
   plugins: [
     require("daisyui"),
   ],
+  // daisyui: {
+  //   themes: [
+  //     "dark",
+  //     "light"
+  //   ],
+  // },
   daisyui: {
-    themes: ["dark", "light"],
+    themes: [
+      "dark",
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
+          ".text-blanco": {
+            "color": "#ffffff",
+          },
+        },
+      },
+    ],
   },
 }

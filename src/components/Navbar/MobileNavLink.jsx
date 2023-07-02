@@ -10,7 +10,7 @@ const MobileNavLink = ({ setToggle, link, href }) => {
                 duration={500}
                 offset={-62}
                 onClick={() => setToggle(prev => !prev)}
-                className="font-bold transition-all duration-300"
+                className="font-bold transition-all duration-300 text-blanco"
             >
                 {link}
             </Link>

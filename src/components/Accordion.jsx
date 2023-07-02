@@ -11,7 +11,7 @@ const Accordion = ({ id, title }) => {
         <div className="pb-8">
             <div className="flex items-center justify-between">
                 <div className="sm:text-xl font-bold">{title}</div>
-                <BsChevronDown className={`${id === activeIndex ? "rotate-180" : "rotate-0"} cursor-pointer transition-all duration-300`} onClick={() => handleClick(id)} />
+                <BsChevronDown style={{ strokeWidth: 2 }} className={`${id === activeIndex ? "rotate-180" : "rotate-0"} cursor-pointer transition-all duration-300 text-secondary`} onClick={() => handleClick(id)} />
             </div>
             <AnimatePresence>
                 {id === activeIndex && (
