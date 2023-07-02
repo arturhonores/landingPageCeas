@@ -42,7 +42,6 @@ const Navbar = () => {
                                 <MobileNavLink key={navLink.id} {...navLink} setToggle={setToggle} />
                             ))
                             }
-                            <LightDarkMode />
                             <HiX onClick={() => setToggle(prev => !prev)} className="absolute top-12 right-12 text-3xl cursor-pointer" />
                         </motion.div>
                     }
